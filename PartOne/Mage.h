@@ -7,12 +7,12 @@
 /*
     Mage should
     [x] be derived from class
-    [ ] Constructor to set name to Mage
+    [x] Constructor to set name to Mage
     [x] instance variable: std::vector <std::string> spellbook
     [x] castSpell (spell: string): void
-        [ ] print out "casts a [spellName]"
-    [ ] pickSpell : string
-        [ ] selects a random spell from the spellbook and returns it
+        [x] print out "casts a [spellName]"
+    [x] pickSpell : string
+        [x] selects a random spell from the spellbook and returns it
     [x] Override the attack function by picking a spell from vector,
         and printing out ", the Mage, [cast text]"
 */
