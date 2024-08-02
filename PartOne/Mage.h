@@ -1,5 +1,6 @@
 #pragma once
 #include "Class.h"
+#include "Hero.h"
 #include <vector>
 #include <cstdlib>
 #include <ctime>
@@ -27,5 +28,5 @@ public:
     Mage();
     void castSpell(std::string spell);
     std::string pickSpell();
-    virtual void attack();
+    virtual void attack() override;
 };

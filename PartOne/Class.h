@@ -18,7 +18,7 @@ private:
 public:
     Class();
     Class(std::string n);
-    std::string getName();
+    std::string getName() const;
     void setName(std::string n);
     virtual void attack() = 0;
 };

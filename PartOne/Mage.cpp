@@ -7,7 +7,6 @@ Mage::Mage() : Class("Mage")
     spellbook.push_back("Animal Messenger");
     spellbook.push_back("Bane");
     spellbook.push_back("Heat Metal");
-    spellbook.push_back("Command");
 }
 void Mage::castSpell(std::string spell)
 {
